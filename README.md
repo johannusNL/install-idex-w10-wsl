@@ -19,6 +19,7 @@ Pre-requisites:
 	d: set wsl version: wsl --set-default-version 2
 
 2. install linux distro (Ubuntu 20.04LTS)
+	
 	a: install distro (ubuntu 20.04LTS): https://www.microsoft.com/store/apps/9n6svws3rx71
 	or by commandline (slow):  Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
 	install from commandline: Add-AppxPackage .\Ubuntu.appx 
