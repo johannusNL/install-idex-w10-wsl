@@ -48,3 +48,13 @@ Pre-requisites:
 
 4. set your firewall
 	set your windows firewall to forward port 8081 from you windows host to Ubuntu
+
+
+**Install IDEX replicator on Windows 11 using powershell and Ubuntu on WSL (Much easier)**
+
+1. install WSL with ubuntu
+powershell: wsl --install
+reboot after completing installation. Setup of ubuntu automaticaly continues after reboot
+2. configure fixed IP address
+3. setup windows firewall, forward ports / setup router
+4. setup idex as described
