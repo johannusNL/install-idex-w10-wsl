@@ -12,11 +12,11 @@ Pre-requisites:
       on mac with Vmware Fusion: https://www.trustedsec.com/blog/running-hyper-v-inside-vmware-fusion/ 
 
 1. Enable WSL and VirtualMachine platform feature from Powershell as admin: 
-a. Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-b. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-c. update wsl kernel to version 2: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
-https://docs.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
-d: set wsl version: wsl --set-default-version 2
+	a. Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+	b. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+	c. update wsl kernel to version 2: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+	https://docs.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+	d: set wsl version: wsl --set-default-version 2
 
 2. install linux distro (Ubuntu 20.04LTS)
 	
