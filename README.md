@@ -28,11 +28,12 @@ Pre-requisites:
 	I ran into the following error ‘error 0x80370109’  it was fixed by Installing hyper-V as windows feature.
 	Powershell:  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All or DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 	source: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
-
+	
 	b: set username password for linux distro. 
 	https://docs.microsoft.com/nl-nl/windows/wsl/setup/environment#set-up-your-linux-user-info
 	- from commandline run: ubuntu
 	- username and password will be asked: set you username/password
+	
 	c. update and upgrade packages: sudo apt update && sudo apt upgrade
 	I got an error after entering new credentials ‘the windows subsystem for linux instance has terminated’ I closed the windows and started Ubuntu again from
 	startmenu. And I was logged in as root. (no password)
